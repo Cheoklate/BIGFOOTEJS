@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<ul>
+			<% for (let i = 0; i < sightings.length; i++) { %>
+			<li><a href= <%= `/sightings/${i}` %> >Sighting <%= `${i}` %> </a></li>
+ <% } %>
+
+			<!-- Create an <li> element for each user in users -->
+		</ul>
+	</body>
+</html>
